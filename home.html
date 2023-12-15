@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4caf50;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .login {
+            float: right;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            margin: 20px;
+            font-size: 30px;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cta a {
+            display: inline-block;
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            
+        }
+
+        .cta a:hover {
+            background-color: #45a049;
+            animation: but 1s 1;
+        }
+        @keyframes but{
+            50%{transform:scale(2) ;}
+
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gold Shop</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="login">Login</a>
+    </nav>
+
+    <section class="welcome">
+        <h2>Welcome to Gold Shop</h2>
+        <p>Discover the finest gold collection and place your order today.</p>
+    </section>
+
+    <section class="cta">
+        <a href="order.html">Order Now</a>
+    </section>
+
+</body>
+</html>
